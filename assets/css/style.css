@@ -1,0 +1,24 @@
+
+.container {
+    font-family: 'Caveat', cursive;
+}
+
+.center {
+    margin-left: 125px;
+}
+
+.nav-link {
+    padding-right: 4px;
+}
+
+small + small {
+    display: none;
+}
+
+input:valid + small + small {
+    display: inline;
+}
+
+input:valid + small {
+    display: none;
+}
